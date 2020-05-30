@@ -328,27 +328,27 @@ img {
 }
 
 .services__icon--clock::before {
-  background-image: url("/img/services_icons/clock.svg");
+  background-image: url("img/services_icons/clock.svg");
 }
 
 .services__icon--graph::before {
-  background-image: url("/img/services_icons/graph.svg");
+  background-image: url("img/services_icons/graph.svg");
 }
 
 .services__icon--comp::before {
-  background-image: url("/img/services_icons/comp.svg");
+  background-image: url("img/services_icons/comp.svg");
 }
 
 .services__icon--book::before {
-  background-image: url("/img/services_icons/book.svg");
+  background-image: url("img/services_icons/book.svg");
 }
 
 .services__icon--house::before {
-  background-image: url("/img/services_icons/house.svg");
+  background-image: url("img/services_icons/house.svg");
 }
 
 .services__icon--image::before {
-  background-image: url("/img/services_icons/image.svg");
+  background-image: url("img/services_icons/image.svg");
 }
 
 .team__heading {
