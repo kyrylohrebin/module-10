@@ -340,7 +340,7 @@ img {
 }
 
 .services__icon--book::before {
-  background-image: url("..img/services_icons/book.svg");
+  background-image: url("../img/services_icons/book.svg");
 }
 
 .services__icon--house::before {
