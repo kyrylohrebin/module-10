@@ -215,10 +215,22 @@ img {
 }
 
 .heading {
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 1.2;
   text-align: center;
+  font-size: 30px;
+  color: rgb(51, 51, 51);
+}
+
+.heading__span {
+  font-size: 24px;
+  font-family: "Kaushan Script", cursive;
+  color: rgb(51, 51, 51);
+  text-transform: none;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .page-header__heading {
@@ -230,11 +242,7 @@ img {
 
 .page-header__heading--span {
   font-size: 72px;
-  font-family: "Kaushan Script", cursive;
   color: #ffffff;
-  line-height: 1.2;
-  text-transform: none;
-  display: block;
 }
 
 .page-header__btn {
@@ -259,22 +267,8 @@ img {
   border: 3px solid rgb(243, 129, 129);
 }
 
-.services__heading {
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  color: rgb(51, 51, 51);
-}
 
-.services__heading--span {
-  font-size: 24px;
-  font-family: "Kaushan Script", cursive;
-  color: rgb(51, 51, 51);
-  text-transform: none;
-  margin-bottom: 20px;
-  display: block;
-}
-
-.services__heading::after {
+.heading__decoration::after {
   display: block;
   content: "";
   width: 60px;
@@ -349,31 +343,6 @@ img {
 
 .services__icon--image::before {
   background-image: url("../img/services_icons/image.svg");
-}
-
-.team__heading {
-  margin: 0;
-  font-size: 30px;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(51, 51, 51);
-}
-
-.team__heading--span {
-  font-size: 24px;
-  font-family: "Kaushan Script", cursive;
-  color: rgb(51, 51, 51);
-  text-transform: none;
-  margin-bottom: 20px;
-  display: block;
-}
-
-.team__heading::after {
-  display: block;
-  content: "";
-  width: 60px;
-  height: 3px;
-  background-color: #f38181;
-  margin: 40px auto 66px;
 }
 
 .team__list {
